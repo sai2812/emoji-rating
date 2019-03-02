@@ -1,0 +1,89 @@
+#customRating  div.ui-rating a span {
+    font-family: none;
+    color: transparent;
+    font-size: 40px;
+  }
+  #customRating  div.ui-rating a
+  {
+    outline: none;
+    padding: 2px;
+    cursor: pointer;
+  }
+
+
+  #customRating  div.ui-rating a:nth-child(1) span::before {
+    background-image: url('../../assets/rating-1.svg');
+    background-repeat: space;
+  }
+  #customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(1):hover span::before{
+  background-image: url('../../assets/rating-1-selected.svg');
+  background-repeat: space;
+ }
+ #customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(1) span.pi-circle-on::before{
+  background-image: url('../../assets/rating-1-selected.svg');
+  background-repeat: space;
+ }
+
+ #customRating  div.ui-rating a:nth-child(2) span::before {
+  background-image: url('../../assets/rating-2.svg');
+  background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(2):hover span::before{
+background-image: url('../../assets/rating-2-selected.svg');
+background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(2) span.pi-circle-on::before{
+background-image: url('../../assets/rating-2-selected.svg');
+background-repeat: space;
+}
+
+
+#customRating  div.ui-rating a:nth-child(3) span::before {
+  background-image: url('../../assets/rating-3.svg');
+  background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(3):hover span::before{
+background-image: url('../../assets/rating-3-selected.svg');
+background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(3) span.pi-circle-on::before{
+background-image: url('../../assets/rating-3-selected.svg');
+background-repeat: space;
+}
+
+
+#customRating  div.ui-rating a:nth-child(4) span::before {
+  background-image: url('../../assets/rating-4.svg');
+  background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(4):hover span::before{
+background-image: url('../../assets/rating-4-selected.svg');
+background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(4) span.pi-circle-on::before{
+background-image: url('../../assets/rating-4-selected.svg');
+background-repeat: space;
+}
+
+
+
+#customRating  div.ui-rating a:nth-child(5) span::before {
+  background-image: url('../../assets/rating-5.svg');
+  background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(5):hover span::before{
+background-image: url('../../assets/rating-5-selected.svg');
+background-repeat: space;
+}
+
+#customRating .ui-rating:not(.ui-state-disabled):not(.ui-rating-readonly) a:nth-child(5) span.pi-circle-on::before{
+background-image: url('../../assets/rating-5-selected.svg');
+background-repeat: space;
+}
